@@ -1,0 +1,19 @@
+version: '3'
+services:
+  ros_lecture_melodic_202302:
+    container_name: ros_lecture_melodic_202302
+    image: kmiyawaki20/ros_lecture:melodic_202302
+    volumes:
+      - catkin_ws:/catkin_ws
+      - ubuntu:/home/ubuntu
+    ports:
+      - "6080:80"
+    environment:
+      - USER=ubuntu
+      - RESOLUTION=1024x768
+      - TZ=Asia/Tokyo
+    tty: true
+
+volumes:
+  catkin_ws:
+  ubuntu:
