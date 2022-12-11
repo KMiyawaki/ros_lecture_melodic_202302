@@ -2,7 +2,7 @@
 
 ## Docker イメージのインストール
 
-通信の良好な環境にて実施してください。
+Wifi通信の良好な環境にて実施してください。
 
 [ros_lecture_melodic_202302-main.zip](https://github.com/KMiyawaki/ros_lecture_melodic_202302/archive/refs/heads/main.zip)をダウンロードし展開してください。ここでは`C:\Users\[ユーザ名]\Documents\ros_lecture_melodic_202302-main`に展開したとします。
 
