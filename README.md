@@ -30,7 +30,7 @@ docker-compose pull
 
 以下の画面のように環境のダウンロードが始まります。
 
-![2022-12-11_101006.png](./images/2022-12-11_101006.png)
+![2022-12-11_154539.png](./images/2022-12-11_154539.png)
 
 次のようなメッセージが出たら終了です。
 
@@ -44,11 +44,12 @@ Pulling ros_lecture_melodic_202302 ... done
 docker images
 ```
 
-次のように`melodic_202302`のイメージがダウンロードされていれば成功です。
+次のように`melodic_202302`のイメージがダウンロードされていれば成功です。  
+`76e6332fcd35   22 minutes ago   3.81GB`の部分は多少異なる可能性があります。
 
 ```cmd
 REPOSITORY                TAG                IMAGE ID       CREATED          SIZE
-kmiyawaki20/ros_lecture   melodic_202302   84e6beb6986c   22 minutes ago   3.81GB
+kmiyawaki20/ros_lecture   melodic_202302   76e6332fcd35   22 minutes ago   3.81GB
 ```
 
 ## 起動
