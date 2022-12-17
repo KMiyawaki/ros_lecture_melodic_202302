@@ -9,10 +9,10 @@ services:
     ports:
       - "6080:80"
     environment:
-      - USER=ubuntu
       - RESOLUTION=1024x768
       - TZ=Asia/Tokyo
     tty: true
+    user: "1000:1000"
 
 volumes:
   catkin_ws:
