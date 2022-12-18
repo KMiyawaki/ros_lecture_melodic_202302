@@ -9,6 +9,7 @@ services:
     ports:
       - "6080:80"
     environment:
+      - USER=ubuntu
       - RESOLUTION=1024x768
       - TZ=Asia/Tokyo
     tty: true
